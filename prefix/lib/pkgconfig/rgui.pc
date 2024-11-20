@@ -1,0 +1,9 @@
+prefix=/home/robin/dev/c/rgui/prefix
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: librgui
+Description: Simple, intermidat mode, gui library.
+Version: 0.1
+Libs: -L${libdir} -lrgui
+Cflags: -I${includedir}/include
